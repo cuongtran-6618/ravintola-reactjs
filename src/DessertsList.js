@@ -8,7 +8,6 @@ function DessertsList(props) {
   });
 
   const desertList = data.map((item) => {
-    const description = `${item.name} - ${item.calories} cal.`
     return <li key={item.calories}>{item.name} {item.calories} cal.</li>
   });
 
